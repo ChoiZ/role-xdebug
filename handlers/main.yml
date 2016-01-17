@@ -1,0 +1,5 @@
+---
+- name: php restart
+  service: name=apache2 enabled=yes state=restarted
+#- name: php fpm restart
+#  service: name=php-fpm enabled=yes state=restarted
